@@ -1,0 +1,30 @@
+{
+  "name": "micro-event-bus-service",
+  "version": "1.0.0",
+  "description": "A minimal event bus for cross-component communication in JavaScript apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bogagafonov/micro-event-bus"
+  },
+  "keywords": [
+    "event",
+    "bus",
+    "communication",
+    "components"
+  ],
+  "author": "Alex Bill",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "debug": "^4.3.1",
+    "events": "^3.3.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
+    "uuid": "^8.3.2",
+    "validate.js": "^0.13.1"
+  }
+}
